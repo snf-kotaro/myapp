@@ -2,7 +2,7 @@ require 'sinatra'
 require 'sinatra/reloader'
 
 get '/' do
-    @title = 'Hello Sinatra!'
+    @title = 'Hello Takahashi!'
     @subtitle = 'Welcome to the world of sinatra and ruby.'
     erb :index
 end
